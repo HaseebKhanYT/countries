@@ -1,0 +1,112 @@
+body {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 1rem;
+}
+
+ol {
+  margin: 0;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bodoni-moda-semibold {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Table */
+
+ol > l::marker {
+  font-size: 2rem;
+}
+
+p {
+  margin: 0;
+}
+
+main > p {
+  text-align: justify;
+}
+
+li > main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+table {
+  background-color: rgb(240, 240, 240);
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+table > caption {
+  padding: 1rem 0 0 0;
+}
+
+tr {
+  display: flex;
+}
+
+td {
+  flex: 1 0;
+}
+
+tr:has(> th) {
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 0.6rem 0;
+}
+
+body > footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
